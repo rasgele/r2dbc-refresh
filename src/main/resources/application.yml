@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: refresh
+  r2dbc:
+    url: r2dbc:pool:postgresql://localhost/refresh?sslmode=disable
+    # url: r2dbc:h2:mem:///refresh;DB_CLOSE_DELAY=-1;DATABASE_TO_UPPER=false
+    username: postgres
+    password: password
